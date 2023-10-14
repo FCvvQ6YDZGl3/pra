@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 19.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "proAqua_test", "proAqua_test\proAqua_test.ssmssqlproj", "{B43474B8-3B2C-4882-B0B6-B435C6D44D7A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "schema", "schema\schema.ssmssqlproj", "{11C11640-88F2-4562-8024-A4FEE8169512}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B43474B8-3B2C-4882-B0B6-B435C6D44D7A}.Default|Default.ActiveCfg = Default
+		{11C11640-88F2-4562-8024-A4FEE8169512}.Default|Default.ActiveCfg = Default
+		{25E85645-8F92-467E-AC39-79D48757D972}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE6D5E9C-0DB7-456B-AB30-DEC7DD81222A}
+	EndGlobalSection
+EndGlobal
