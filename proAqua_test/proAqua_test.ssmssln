@@ -7,6 +7,8 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "proAqua_test", "proAqua_tes
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "schema", "schema\schema.ssmssqlproj", "{11C11640-88F2-4562-8024-A4FEE8169512}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "sessionsGen", "sessionsGen\sessionsGen.ssmssqlproj", "{3BAFE1C9-0785-445A-B39A-AD0248949698}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -15,6 +17,7 @@ Global
 		{B43474B8-3B2C-4882-B0B6-B435C6D44D7A}.Default|Default.ActiveCfg = Default
 		{11C11640-88F2-4562-8024-A4FEE8169512}.Default|Default.ActiveCfg = Default
 		{25E85645-8F92-467E-AC39-79D48757D972}.Default|Default.ActiveCfg = Default
+		{3BAFE1C9-0785-445A-B39A-AD0248949698}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="proAqua_test">
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="sessionsGen">
   <Items>
     <LogicalFolder Name="Соединения" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="MAIN-WORK:MAIN-WORK\Professional">
-          <Created>2023-10-14T18:21:52.8980965+07:00</Created>
+          <Created>2023-10-14T17:28:02.1047652+07:00</Created>
           <Type>SQL</Type>
           <Server>MAIN-WORK</Server>
           <UserName />
@@ -19,11 +19,23 @@
     </LogicalFolder>
     <LogicalFolder Name="Запросы" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="updClientTypeBySessCount.sql">
+        <FileNode Name="ct_newSession.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MAIN-WORK:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>MAIN-WORK</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>updClientTypeBySessCount.sql</FullPath>
+          <FullPath>ct_newSession.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ct_UserTempTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MAIN-WORK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MAIN-WORK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ct_UserTempTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="genSessions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MAIN-WORK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MAIN-WORK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>genSessions.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

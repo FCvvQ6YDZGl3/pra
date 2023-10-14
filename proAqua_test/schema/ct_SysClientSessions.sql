@@ -1,7 +1,11 @@
 drop table if exists axp.SysClientSessions;
 create table axp.SysClientSessions
 (
-	SessionId int not null,
-	UserId varchar(50) not null
+	SessionId bigint not null,
+	userId varchar(50) not null,
+	clientType tinyint not null,
+	sessionType tinyint not null,
+	[Status] tinyint not null,
+	clientComputer varchar(50) not null
 )
 go
